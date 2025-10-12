@@ -1,0 +1,9 @@
+# Visual Studio workspace files
+.vs/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Unit test cache
+unit_test/__pycache__/

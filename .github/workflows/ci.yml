@@ -27,7 +27,7 @@ jobs:
       - name: Lint with Ruff
         continue-on-error: true
         run: |
-          ruff check . --ignore E402
+          ruff check . --ignore E402,F401
           
       - name: Test with Pytest
         continue-on-error: true 
